@@ -1,0 +1,13 @@
+.div {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    height: 100vh;
+}
+
+.main {
+    max-width: 1076px;
+    margin: 59px auto 0;
+    display: flex;
+}

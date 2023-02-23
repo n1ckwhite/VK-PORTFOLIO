@@ -1,0 +1,44 @@
+.menu {
+    width: 170px;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.li {
+    border-radius: 5px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+
+.li:hover {
+    background: var(--hover);
+}
+
+.a {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.icon {
+    margin-right: 5px;
+    color: var(--blue);
+}
+
+.txt {
+    margin: 0;
+}
