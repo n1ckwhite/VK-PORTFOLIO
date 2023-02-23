@@ -1,7 +1,7 @@
 .header {
     background: #fff;
     border-bottom: 1px solid var(--separator_alternate);
-    margin: 0 auto 0 15px;
+    margin: 0 auto;
     padding: 15px;
     position: fixed;
     top: 0;

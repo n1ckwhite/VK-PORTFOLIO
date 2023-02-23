@@ -1,5 +1,6 @@
 .main {
     width: 100%;
+    margin-top: 79px;
 }
 
 .profile {
@@ -95,22 +96,29 @@
 }
 
 .sertsFlex {
+    padding: 0;
+    list-style-type: none;
     display: flex;
     margin-top: 20px;
     align-items: center;
 }
 
-.icon {
+.image {
     margin-right: 20px;
-    width: 150px;
     cursor: pointer;
-    transition: .2s;
     border: 1px solid var(--separator_alternate);
+    width: 150px;
 }
-
-.icon:hover {
+.image:hover {
     opacity: .7;
 }
+
+.icon {
+    width: 100%;
+    transition: .2s;
+}
+
+
 
 .icon:last-of-type {
     margin-right: 0;

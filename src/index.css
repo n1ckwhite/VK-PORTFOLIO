@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -10,7 +11,7 @@ code {
     monospace;
 }
 
-.container[data-theme="light"] {
+:root{
   --separator_alternate: #e7e8ec;
   --bg: #edeef0;
   --blue: #447bba;
