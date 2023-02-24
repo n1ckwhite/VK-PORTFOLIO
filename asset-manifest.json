@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae4c3846.css",
+    "main.js": "/static/js/main.607f08f2.js",
+    "static/js/787.cd7d7d7f.chunk.js": "/static/js/787.cd7d7d7f.chunk.js",
+    "static/media/hack_dobra.png": "/static/media/hack_dobra.af81110e1f358a0fe3be.png",
+    "static/media/hack_lct.png": "/static/media/hack_lct.3819d688734321326189.png",
+    "static/media/timepad.png": "/static/media/timepad.5eb735eeefcf10369d74.png",
+    "static/media/mongodb.svg": "/static/media/mongodb.4d0524e8507975bf9f23ba41f15253e8.svg",
+    "static/media/css.svg": "/static/media/css.4aee21f25f7e14351003f8dd57e2d4f0.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.3a874a6c9bed4d7149ac77c81ac2bcef.svg",
+    "static/media/nextjs.svg": "/static/media/nextjs.b7234557de317e78b7878e3aeabc5fd6.svg",
+    "static/media/express.svg": "/static/media/express.493a0dd08d8d77a341e2d22676607a29.svg",
+    "static/media/git.svg": "/static/media/git.cbbdd0c902376ddb076c5a0cd253936d.svg",
+    "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/typescript.svg": "/static/media/typescript.4e8929b9c1c3f72ab2d78f695934ea47.svg",
+    "static/media/tg.svg": "/static/media/tg.f3c98146bb538656e1e44276dc8f7699.svg",
+    "index.html": "/index.html",
+    "static/media/js.svg": "/static/media/js.61c1fa6b2ee4eb8ce8d0e0c25ab67854.svg",
+    "static/media/html.svg": "/static/media/html.cf51b3879972e0e8c0c9be2135162847.svg",
+    "static/media/react.svg": "/static/media/react.3a03708e42481565259f85329d20b695.svg",
+    "main.ae4c3846.css.map": "/static/css/main.ae4c3846.css.map",
+    "main.607f08f2.js.map": "/static/js/main.607f08f2.js.map",
+    "787.cd7d7d7f.chunk.js.map": "/static/js/787.cd7d7d7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae4c3846.css",
+    "static/js/main.607f08f2.js"
+  ]
+}
