@@ -216,3 +216,36 @@
 .profDescr {
     margin-top: 20px;
 }
+
+@media screen and (max-width: 900px) {
+    .bords {
+        flex-wrap: wrap;
+    }
+    .links {
+        margin: 20px 0 0 0 ;
+    }
+
+    .serts {
+        width: 100%;
+    }
+    .img {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -200px;
+    }
+    .text {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .city {
+        width: 100%;
+        text-align: center;
+    }
+    .sertsFlex {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+}

@@ -5,6 +5,7 @@ import cn from 'classnames'
 import {MainPage} from "../../pages/MainPage/MainPage";
 import {Header} from "../Header/Header";
 import {Menu} from "../Menu/Menu";
+import {HardsPage} from "../../pages/HardsPage/HardsPage";
 export const App = () => {
 
   return (
@@ -14,6 +15,7 @@ export const App = () => {
             <Menu/>
       <Routes>
           <Route path="/" element={<MainPage/>}/>
+          <Route path="/hards" element={<HardsPage/>}/>
           <Route path="*" element={<h1>Error</h1>}/>
       </Routes>
     </div>

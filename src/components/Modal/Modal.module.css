@@ -15,7 +15,7 @@
 }
 
 .overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -23,13 +23,15 @@
     background: rgba(0,0,0,.5);
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .modalActive {
-    z-index: 1;
+    z-index: 101;
 }
 
 .div {
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,5 +55,11 @@
 }
 
 .img {
-    width: 70%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .div {
+    width: 80%;
+    }
 }

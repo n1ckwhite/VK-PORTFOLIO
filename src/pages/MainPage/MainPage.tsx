@@ -2,7 +2,6 @@ import styleMain from './MainPage.module.css';
 import lct from '../../icons/hack_lct.png'
 import hack from '../../icons/hack_dobra.png'
 import timepad from '../../icons/timepad.png'
-import udemy from '../../icons/udemy.png'
 import tg from '../../icons/tg.svg'
 import hh from '../../icons/hh.png'
 import git from '../../icons/git.svg'
@@ -11,8 +10,7 @@ import {Modal} from "../../components/Modal/Modal";
 
 
 export const MainPage= () => {
-    const theme = window.localStorage.getItem('theme')
-    const imgs = [lct,hack,timepad,udemy]
+    const imgs = [lct,hack,timepad]
     const [modalActive,setModalActive] = useState(false)
     const [srcImage,setSrcImage] = useState('')
     const handleModal = (e: Event) => {
@@ -61,7 +59,7 @@ export const MainPage= () => {
         <p className={styleMain.link}>Ссылки</p>
                 <ul className={styleMain.ul}>
                     <li className={styleMain.li}>
-                        <a href="https://t.me/iamceob1tch" target="_blank" className={styleMain.socialLink}>
+                        <a href="https://t.me/iamceob1tchnpm " target="_blank" className={styleMain.socialLink}>
                         <img className={styleMain.liIcon} src={tg}/>
                         <p className={styleMain.social}>Telegram</p>
                         </a>

@@ -13,7 +13,7 @@ export const Modal: FC<IProps> = ({isActive,closeModal,image}) => {
 
     return createPortal(
         <div className={cn(styleModal.modal,isActive ? styleModal.modalActive : '')}>
-            <div className={styleModal.overlay} onClick={closeModal}></div>
+            <div className={isActive ? styleModal.overlay : ''} onClick={closeModal}></div>
             {isActive
             ? (
                     <div className={styleModal.div}>

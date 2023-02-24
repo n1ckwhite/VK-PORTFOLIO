@@ -44,3 +44,21 @@
 .txt {
     margin: 0;
 }
+
+
+@media screen and (max-width: 1000px){
+    .menu {
+        width: 50px;
+        background: #fff;
+        border-radius: 5px;
+    }
+    .txt {
+        display: none;
+    }
+    .li {
+        margin-top: 5px;
+    }
+    .li:first-child {
+        margin-top: 0;
+    }
+}
