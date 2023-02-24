@@ -1,8 +1,10 @@
-import styleHeader from './Header.module.css';
+import styleHeader from "./Header.module.css";
 export const Header = () => {
-    return (
-        <header className={styleHeader.header}>
-            <a href="#" className={styleHeader.title}>Ник Уайт</a>
-        </header>
-    )
-}
+  return (
+    <header className={styleHeader.header}>
+      <a href="#" className={styleHeader.title}>
+        Ник Уайт
+      </a>
+    </header>
+  );
+};

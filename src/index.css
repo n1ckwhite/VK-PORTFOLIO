@@ -3,17 +3,18 @@ html {
 }
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-:root{
+:root {
   --separator_alternate: #e7e8ec;
   --bg: #edeef0;
   --blue: #447bba;
@@ -23,5 +24,3 @@ code {
   --bg-btn: #e5ebf1;
   --text-link: #2a5885;
 }
-
-
